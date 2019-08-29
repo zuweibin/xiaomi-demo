@@ -1,0 +1,224 @@
+/* 	.main14top{
+		width: 1226px;
+		height: 60px;
+		background: black;
+	}
+	.main14bottom{
+		display:flex;
+	}
+	.main14 .left{
+		width: 235px;
+		height:640px;
+		background: red;
+	}
+	.main14 .right{
+		margin-top:20px;
+	}
+	.main14 .right .righttop{
+		display:flex;
+		justify-content:space-around;
+		width: 991px;
+		height:320px;
+	}
+	.main14 .right .rightbottom{
+		display:flex;
+		justify-content:space-around;
+		width: 991px;
+		height:320px;
+	}
+	.main14 ul{
+		margin-left:10px;
+		width: 235px;
+		height: 300px;
+		background: green;
+		transition:0.5s;
+	}
+	.main14 ul:hover{
+		margin-top:-10px;
+	} */
+/*主题19元素设置开始*/
+	.main19 .main19list .listson{
+		float:left;
+		width: 296px;
+		height: 420px;
+		background: white;
+		transition:0.5s;
+	}
+	.main19 .main19list .listson:hover{
+		margin-top:-3px;                      /*控制盒子上浮动作*/
+		box-shadow:0 10px 10px #c4c4c4;
+	}
+	.main19 .main19list .listson+.listson{
+		margin-left:14px;
+	}
+	.main19 .main19list .listson .text{
+		width: 250px;
+		height: 100px;
+		margin:25px auto 0;
+	}
+	.main19 .main19list .listson .text> a{
+		color:#333;
+		font-size:14px;
+		line-height:25px;
+	}
+	.main19 .main19list .listson .text1{
+		width: 250px;
+		margin: auto ;
+		color:#cccccc;
+		font-size:12px;
+		max-width: 170px;
+	}
+	.main19 .main19list .listson .text2{
+		width: 250px;
+		margin:10px auto 0;
+		font-size:14px;
+		max-width: 170px;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+		vertical-align: bottom;
+		color: #333;
+	}
+	/*主题19元素设置结束*/
+	/*主题20元素设置开始*/
+	.main20 .main20list .listson1{
+		float:left;
+		width: 296px;        /*第一个盒子属性*/
+		height: 370px;
+		background: white;
+		transition:0.5s;
+		border-top:1px solid #ff9900;
+	}
+	.main20 .main20list .listson2{
+		float:left;
+		width: 296px;        /*第二个盒子属性*/
+		height: 370px;
+		background: white;
+		transition:0.5s;
+		border-top:1px solid green;
+	}
+	.main20 .main20list .listson3{
+		float:left;
+		width: 296px;        /*第三个盒子属性*/
+		height: 370px;
+		background: white;
+		transition:0.5s;
+		border-top:1px solid red;
+	}
+	.main20 .main20list .listson4{
+		float:left;
+		width: 296px;        /*第四个盒子属性*/
+		height: 370px;
+		background: white;
+		transition:0.5s;
+		border-top:1px solid blue;
+	}
+	.main20 .main20list li:hover{
+		margin-top:-3px;                      /*控制盒子上浮动作*/
+		box-shadow:0 10px 10px #c4c4c4;
+	}
+	.main20 .main20list>li+li{
+		margin-left:14px;
+	}
+	.main20 .main20list .listson+.listson{
+		margin-left:14px;
+	}
+	.main20 .main20list li .tushu{
+		margin: 20px auto 18px;
+		font-size: 16px;
+		font-weight: 400;
+		color: #ffac13;
+		text-align: center;
+	}
+	.main20 .main20list li .tushu1{
+		margin: 20px auto 18px;
+		font-size: 16px;
+		font-weight: 400;
+		color: #83c44e;
+		text-align: center;
+	}
+	.main20 .main20list li .tushu2{
+		margin: 20px auto 18px;
+		font-size: 16px;
+		font-weight: 400;
+		color: #e53935;
+		text-align: center;
+	}
+	.main20 .main20list li .tushu3{
+		margin: 20px auto 18px;
+		font-size: 16px;
+		font-weight: 400;
+		color: #2196f3;
+		text-align: center;
+	}
+	.main20 .main20list li .text3{
+		width: 216px;
+		margin:5px auto 5px;
+		font-size: 18px;
+		font-weight: 400;
+		color: #333;
+	}
+	.main20 .main20list li .text6{
+		width: 100px;
+		margin:5px auto 5px;
+		font-size: 18px;
+		font-weight: 400;
+		color: #333;
+	}
+	.main20 .main20list li .text4{
+		width: 194px;
+		margin:5px auto 5px;
+		text-align:center;	
+		font-size: 12px;
+		font-weight: 400;
+		color: #b0b0b0;
+	}
+	.main20 .main20list li .text5{
+		width: 250px;
+		margin:15px auto 5px;
+		text-align:center;	
+		font-size: 14px;
+		font-weight: 400;
+		color: #333;
+	}
+	.main20 .main20list li .pic{
+		margin:30px 0 0 45px;	
+	}
+	/*主题20元素设置结束*/
+
+	/*主题21元素设置开始*/
+	.main21 .main21list{
+		margin-top:20px;
+	}
+	.main21 .main21list .list+.list{
+		margin-left:14px;
+	}
+	.main21 .main21list .list{
+		position: relative;
+		float:left;
+		height: 280px;
+		background: white;
+		transition:0.5s;
+	}
+	.main21 .main21list .list:hover{
+		margin-top:-3px;                      /*控制盒子上浮动作*/
+		box-shadow:0 10px 10px #c4c4c4;
+	}
+	.main21 .main21list .list .text7 a{
+		font-size:14px;
+		color:#333;
+	}
+	.main21 .main21list .list .text7 a:hover{
+		color:#ff9900;
+	}
+	.main21 .main21list .list .text7{
+		margin:15px auto 0;
+		text-align:center ;
+	}
+	.main21 .main21list .list .text8{
+		font-size:12px;
+		color:#b0b0b0;
+		margin:5px auto 0;
+		text-align:center ;
+	}
+	/*主题21元素设置结束*/

@@ -1,0 +1,91 @@
+.main3list .main3son{
+	width: 235px;
+	height: 10px;
+	line-height:37px;
+	margin:30px auto 30px;
+}
+.main3 .main3list1 .main3list .main3son .sonlist{
+	width: 220px;
+	position: relative;
+}
+.main3 .main3list1 .main3list .main3son .prot{
+	position: absolute;
+	display: none;
+	float:left;
+	top:180px;
+	left:572px;
+	z-index: 20;
+	width: 991px;
+	height: 460px;
+	background:white;
+}
+.main3 .main3list1 .main3list .main3son .prot .protson{
+	float:left;
+	height: 460px;
+}
+.main3 .main3list1 .main3list .main3son .prot .protson li{
+	width: 247px;
+}
+.main3 .main3list1 .main3list .main3son .sonlist a{
+	color:white;
+	font-size:14px;
+	text-align:center;
+	margin-left:30px;
+}
+.main3 .main3list1 .main3list .main3son .sonlist .float-right{
+	float:right;
+	color:#bbb;
+	font-weight:bold;
+	font-family: "iconfont";
+	font-size: 20px;
+	font-style: normal;
+	webkit-font-smoothing: antialiased;
+	moz-osx-font-smoothing: grayscale;
+}
+.main3 .main3list1 .main3list .main3son .sonlist:hover{
+	background: #ff9900;
+}
+.main3 .main3list1 .main3list .main3son .sonlist:hover.prot{
+	display:inline-block;
+}
+/**µ¼º½À¸²Ëµ¥**/
+.daohang{
+	position:fixed;
+	bottom:165px;
+	right:0px;
+	width:84px;
+	height: 462px;
+	/* background: white; */
+}
+.case{
+	width: 84px;
+	height: 456px;
+	/* background: red; */
+}
+.case .son{
+	text-align:center;
+	width: 84px;
+	height: 90px;
+	background: #f6f6f6;
+	border-bottom:1px solid #ccc;
+	box-shadow:0 1px 2px #ddd;
+}
+.ftop{
+	width: 84px;
+	height: 92px;
+	margin-top:30px;
+	background: #f6f6f6;
+}
+.daohang .case .son a{
+	font-size:14px;
+	text-align:center;
+	color:#333;
+}
+.daohang .case .son a .p:hover{
+	color: #ff6600;
+}
+.ftop> .p{
+	font-size:14px;
+	text-align:center;
+	color:#333;
+}

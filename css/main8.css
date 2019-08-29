@@ -1,0 +1,228 @@
+	.main8top{
+		width: 1226px;
+		height: 60px;
+	}
+	.main8bottom{
+		display:flex;
+	}
+	.main8 .left{
+		width: 235px;
+		height:640px;
+		position:relative;
+	}
+	.main8 .right{
+		margin-top:10px;
+	}
+	.main8 .right .righttop{
+		display:flex;
+		justify-content:space-around;
+		width: 991px;
+		height:310px;
+	}
+	.main8 .right .rightbottom{
+		display:flex;
+		justify-content:space-around;
+		width: 991px;
+		height:310px;
+		margin-top:10px;
+	}
+	.main8 ul{
+		margin-left:10px;
+		width: 235px;
+		height: 310px;
+		background: white;
+		transition:0.5s;
+	}
+	.main8list{
+		margin-top:-45px;
+		float:right;
+		width: 220px;
+		height: 60px;	
+	}
+	.main8list .main8listson{
+		margin-left:10px;
+		font-size:16px;
+		font-family:£»
+		color:black;
+	}
+	.main8list span:hover{
+		color:#ff6600;
+		border-bottom:2px solid #ff6600;
+	}
+	.main8 .main8bottom .left .leftlist{
+		width: 235px;
+		height: 310px;
+		margin-top:10px;
+		transition:0.5s;
+	}
+	.main8 .main8bottom .right .righttop .rightlist .pic{
+		width: 160px;
+		height: 160px;
+		margin:auto;
+	}
+	.main8 .main8bottom .right .righttop .rightlist .center{
+		margin-top:20px;
+		font-size: 14px;
+		font-weight: 400;
+		text-align: center;
+	}
+	.main8 .main8bottom .right .righttop .rightlist .cos{
+		margin: 0 10px 10px;
+		height: 18px;
+		font-size: 12px;
+		text-align: center;
+		white-space: nowrap;
+		color: #b0b0b0;
+	}
+	.main8 .main8bottom .right .righttop .rightlist .row{
+		text-align: center;
+		color: #ff6700;
+	}
+	.main8 .main8bottom .right .righttop .rightlist .xinp{
+		width: 70px;
+		margin:auto;
+		background-color: #83c44e;
+		font-size:14px;
+		color:white;
+		text-align:center;
+	}
+	.main8 .main8bottom .right .rightbottom .rightlist .pic{
+		width: 160px;
+		height: 160px;
+		margin:auto;
+	}.main8 .main8bottom .right .righttop .rightlist .pic{
+		width: 160px;
+		height: 160px;
+		margin:  auto ;
+	}
+	.main8 .main8bottom .right .righttop .rightlist .center{
+		margin-top:20px;
+		font-size: 14px;
+		font-weight: 400;
+		text-align: center;
+	}
+	.main8 .main8bottom .right .righttop .rightlist .cos{
+		margin: 0 10px 10px;
+		height: 18px;
+		font-size: 12px;
+		overflow: hidden;
+		text-align: center;
+		white-space: nowrap;
+		color: #b0b0b0;
+	}
+	.main8 .main8bottom .right .righttop .rightlist .row{
+		text-align: center;
+		color: #ff6700;
+	}
+	.main8 .main8bottom .right .righttop .rightlist .xinp{
+		width: 70px;
+		height:;
+		margin:auto;
+		background-color: #83c44e;
+		font-size:14px;
+		color:white;
+		text-align:center;
+	}
+	.main8 .main8bottom .right .rightbottom .rightlist .pic{
+		width: 160px;
+		height: 160px;
+		margin:auto;
+	}
+	.main8 .main8bottom .right .righttop .rightlist:hover{
+		margin-top:-5px;
+		box-shadow:0 10px 10px #c4c4c4;
+	}
+	.main8 .main8bottom .right .rightbottom .rightlist:hover{
+		margin-top:-5px;
+		box-shadow:0 10px 10px #c4c4c4;
+	}
+	.main8 .main8bottom .leftlist:hover{
+		margin-top:-5px;
+		box-shadow:0 10px 10px #c4c4c4;
+	}
+	.main8 .main8bottom .right .rightbottom .rightlist .pic{
+		width: 160px;
+		height: 160px;
+		margin:auto;
+	}
+	.main8 .main8bottom .right .rightbottom .rightlist .center{
+		margin-top:20px;
+		font-size: 14px;
+		font-weight: 400;
+		text-align: center;
+	}
+	.main8 .main8bottom .right .rightbottom .rightlist .cos{
+		margin: 0 10px 10px;
+		height: 18px;
+		font-size: 12px;
+		text-align: center;
+		white-space: nowrap;
+		color: #b0b0b0;
+	}
+	.main8 .main8bottom .right .rightbottom .rightlist .row{
+		text-align: center;
+		color: #ff6700;
+	}
+	.main8 .main8bottom .right .rightbottom .rightlist .xinp{
+		width: 70px;
+		margin:auto;
+		background-color: #e53935;
+		font-size:14px;
+		color:white;
+		text-align:center;
+	}
+	.fenlist1 .center1{
+		margin:40px 0 0 30px;
+		font-size:14px;
+		color:black;
+	}
+	.fenlist1 .row1{
+		margin:8px 0 0 30px;
+		font-size:14px;
+		color:red;
+	}
+	.fenlist1 .pic1{
+		position: relative;
+		bottom:58px;
+		right:-128px;
+	}
+	.fenlist2 .center2{
+		margin:15px 0 0 35px;
+		font-size:18px;
+		color:black;
+	}
+	.fenlist2 .row2{
+		margin:8px 0 0 35px;
+		font-size:14px;
+		color:rgb(117 117 117);
+	}
+	.fenlist2 .pic2{
+		position: relative;
+		bottom:58px;
+		right:-150px;
+	}
+	.pic2{
+	  font-family: "iconfont";
+	  font-size:50px;
+	  color:red;
+	  font-style: normal;
+	  webkit-font-smoothing: antialiased;
+	  moz-osx-font-smoothing: grayscale;
+	}
+	.none1{
+		display: none;
+		position: absolute;
+		top:10px;
+		left:20px;
+		z-index: 10;
+	}
+	.none2{
+		display: none;
+		position: absolute;
+		top:10px;
+		left:20px;
+		z-index: 10;
+	}
+	.main8listson1:hover .none1{
+		display: block;
+	}

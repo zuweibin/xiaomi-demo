@@ -1,0 +1,141 @@
+	.main10top{
+		width: 1226px;
+		height: 60px;
+		/* background: black; */
+	}
+	.main10bottom{
+		display:flex;
+	}
+	.main10 .left{
+		width: 235px;
+		height:640px;
+		/* background: red; */
+	}
+	.main10 .right .righttop{
+		display:flex;
+		justify-content:space-around;
+		width: 991px;
+		height:310px;
+	}
+	.main10 .right .rightbottom{
+		display:flex;
+		justify-content:space-around;
+		width: 991px;
+		height:310px;
+		margin-top:10px;
+	}
+	.main10 ul{
+		margin-left:10px;
+		width: 235px;                        /*设置盒子大小*/
+		height: 310px;
+		background: white;
+		transition:0.5s;
+	}
+	.main10 .main10bottom .right ul:hover{
+		margin-top:-5px;                      /*控制盒子上浮动作*/
+		box-shadow:0 10px 10px #c4c4c4;
+	}
+	/*盒子头部代码控制*/
+	.main10list{
+		margin-top:-45px;
+		float:right;
+		width: 250px;
+		height: 60px;	
+	}
+	.main10list span{
+		margin-left:10px;
+		font-size:16px;
+		font-family:；
+		color:black;
+	}
+	.main10list span:hover{
+		color:#ff6600;
+		border-bottom:2px solid #ff6600;
+	}
+	/*盒子下》》左边控制代码：*/
+	.main10 .main10bottom .left div{
+		width: 235px;
+		height: 310px;
+		margin-top:10px;
+		transition:0.5s;
+	}
+	.main10>.main10bottom>.left>.leftlist:hover{
+		margin-top:-5px;
+		box-shadow:0 10px 10px #c4c4c4;
+	}
+	/*盒子下》》右》》上控制代码：*/
+	.main10bottom .right .righttop .rightlist{
+		width: 235px;
+		height: 310px;
+		margin-top:10px;
+		transition:0.5s;
+	}
+	.main10bottom .right .righttop .rightlist .xinp{
+		width: 70px;
+		margin:auto;
+		background-color: #83c44e;
+		font-size:14px;
+		color:white;
+		text-align:center;
+	}
+	.main10 .main10bottom .right .righttop .rightlist .pic{
+		width: 160px;
+		height: 160px;
+		margin:auto;
+	}
+	.main10 .main10bottom .right .righttop .rightlist .center{
+		margin-top:20px;
+		font-size: 14px;
+		font-weight: 400;
+		text-align: center;
+	}
+	.main10 .main10bottom .right .righttop .rightlist .cos{
+		margin: 0 10px 10px;
+		height: 18px;
+		font-size: 12px;
+		text-align: center;
+		white-space: nowrap;
+		color: #b0b0b0;
+	}
+	.main10 .main10bottom .right .righttop .rightlist .row{
+		text-align: center;
+		color: #ff6700;
+	}
+	/*盒子下》》右》》下控制代码：*/
+	.main10bottom .right .rightbottom .rightlist{
+		width: 235px;
+		height: 310px;
+		margin-top:10px;
+		transition:0.5s;
+	}
+	.main10bottom .right .rightbottom .rightlist .xinp{
+		width: 70px;
+		margin:auto;
+		background-color: #e53935;
+		font-size:14px;
+		color:white;
+		text-align:center;
+	}
+	.main10 .main10bottom .right .rightbottom .rightlist .pic{
+		width: 160px;
+		height: 160px;
+		margin:auto;
+	}
+	.main10 .main10bottom .right .rightbottom .rightlist .center{
+		margin-top:20px;
+		font-size: 14px;
+		font-weight: 400;
+		text-align: center;
+	}
+	.main10 .main10bottom .right .rightbottom .rightlist .cos{
+		margin: 0 10px 10px;
+		height: 18px;
+		font-size: 12px;
+		text-align: center;
+		white-space: nowrap;
+		color: #b0b0b0;
+	}
+	.main10 .main10bottom .right .rightbottom .rightlist .row{
+		text-align: center;
+		color: #ff6700;
+	}

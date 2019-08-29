@@ -1,0 +1,107 @@
+	.main6top{
+		width: 1226px;
+		height: 60px;
+		margin-top:45px;
+	}
+	.main6bottom{
+		display:flex;
+	}
+	.main6 .left{
+		width: 235px;
+		height:640px;
+		background: red;
+		transition:0.5s;
+	}
+	.main6 .right{
+		/* margin-top:20px; */
+	}
+	.main6 .right .righttop{
+		display:flex;
+		justify-content:space-around;
+		width: 991px;
+		height:320px;
+	}
+	.main6 .right .rightbottom{
+		margin-top:10px;
+		display:flex;
+		justify-content:space-around;
+		width: 991px;
+		height:320px;
+	}
+	.main6 ul{
+		margin-left:10px;
+		width: 235px;
+		height: 310px;
+		background: white;
+		transition:0.5s;
+	}
+	.main6 ul:hover{
+		margin-top:-10px;
+		box-shadow:0 10px 10px #c4c4c4;
+	}
+	.main6 .main6bottom .left:hover{
+		margin-top:-10px;
+		box-shadow:0 10px 10px #c4c4c4;
+	}
+	.main6 .main6bottom .right .righttop .rightlist .pic{
+		width: 160px;
+		height: 160px;
+		margin:auto;
+	}
+	.main6 .main6bottom .right .righttop .rightlist .center{
+		margin-top:20px;
+		font-size: 14px;
+		font-weight: 400;
+		text-align: center;
+	}
+	.main6 .main6bottom .right .righttop .rightlist .cos{
+		margin: 0 10px 10px;
+		height: 18px;
+		font-size: 12px;
+		text-align: center;
+		white-space: nowrap;
+		color: #b0b0b0;
+	}
+	.main6 .main6bottom .right .righttop .rightlist .row{
+		text-align: center;
+		color: #ff6700;
+	}
+	.main6 .main6bottom .right .righttop .rightlist .xinp{
+		width: 70px;
+		margin:auto;
+		background-color: #83c44e;
+		font-size:14px;
+		color:white;
+		text-align:center;
+	}
+	.main6 .main6bottom .right .rightbottom .rightlist .pic{
+		width: 160px;
+		height: 160px;
+		margin:auto;
+	}
+	.main6 .main6bottom .right .rightbottom .rightlist .center{
+		margin-top:20px;
+		font-size: 14px;
+		font-weight: 400;
+		text-align: center;
+	}
+	.main6 .main6bottom .right .rightbottom .rightlist .cos{
+		margin: 0 10px 10px;
+		height: 18px;
+		font-size: 12px;
+		text-align: center;
+		white-space: nowrap;
+		color: #b0b0b0;
+	}
+	.main6 .main6bottom .right .rightbottom .rightlist .row{
+		text-align: center;
+		color: #ff6700;
+	}
+	.main6 .main6bottom .right .rightbottom .rightlist .xinp{
+		width: 70px;
+		margin:auto;
+		background-color: #e53935;
+		font-size:14px;
+		color:white;
+		text-align:center;
+	}

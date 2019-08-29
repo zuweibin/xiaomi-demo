@@ -1,0 +1,174 @@
+.main18 .top{
+	width: 1226px;
+	height: 40px;
+	/* background: red; */
+}
+.main18 .top .zuoyou{
+	margin-top:-30px;
+	float:right;
+	width: 100px;
+	height: 30px;
+}
+.main18 .bottom{
+	width: 1225px;
+	height: 300px;
+	/* background: blue; */
+}
+.main18 .bottom .rightlist{
+	float:left;
+	margin-top:20px;
+	width: 237px;
+	height: 300px;
+	background: white;
+	transition:0.5s;
+}
+.main18 .bottom .rightlist+.rightlist{
+	margin-left:10px;
+}
+.main18 .bottom .rightlist:hover{
+	color:#ff6600;
+	margin-top:15px;                   /* 控制盒子上浮动作*/
+	box-shadow:0 10px 10px #c4c4c4;
+} 
+.main18 .bottom .rightlist .pic{
+		width: 160px;
+		height: 160px;
+		margin:30px auto 0;
+}
+.main18 .bottom .rightlist .center{
+		margin-top:20px;
+		font-size: 14px;
+		font-weight: 400;
+		text-align: center;
+}
+.main18 .bottom .rightlist .cos{
+		margin: 0 10px 10px;
+		height: 18px;
+		font-size: 12px;
+		text-align: center;
+		white-space: nowrap;
+		color: #b0b0b0;
+}
+.main18 .bottom .rightlist .row{
+		text-align: center;
+		color: #ff6700;
+}
+.title{
+	margin: 0;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+
+/**尾部部分**/
+.main22 .footfuwu{
+	height: 50px;
+	border-bottom:1px solid #b0b0b0;
+}
+.main22 .footfuwu .list{
+	margin:0 auto;
+}
+.main22 .footfuwu .list .listson{
+	width: 243px;
+	float:left;
+	text-align:center;
+}
+.main22 .footfuwu .list .listson+.listson{
+	border-left:1px solid #b0b0b0;
+}
+.main22 .footfuwu .list li a:hover{
+	color:#ff6600;
+}
+.main22 .footfuwu .list .listson>a {
+	color:#616161;
+	font-size:16px;
+}
+.main22 .footfuwu2{
+	margin:30px auto;
+}
+.main22 .footfuwu2 .left dl{
+	float:left;
+	width: 161px;
+}
+.main22 .footfuwu2 .left dl dt{
+	margin: -1px 0 26px;
+    font-size: 14px;
+    line-height: 1.25;
+}
+.main22 .footfuwu2 .left dl dd{
+	margin: 10px 0 0;
+    font-size: 12px;
+}
+.main22 .footfuwu2 .left dl dd a{
+	color: #424242;
+}
+.main22 .footfuwu2 .left dl dd a:hover{
+	color: red;
+}
+.main22 .footfuwu2 .right{
+	float:right;
+	width: 253px;
+	height: 150px;
+	border-left:1px solid #b0b0b0;
+}
+.main22 .footfuwu2 .right h4{
+	margin:5px 0 5px 50px;
+	color:red;
+	font-size:22px;
+}
+.main22 .footfuwu2 .right p{
+	margin-left: 70px;
+    font-size: 12px;
+}
+.main22 .footfuwu2 .right div{
+	margin: 25px auto ;
+	width: 100px;
+	border: 1px solid #ff6700;
+    background: #fff;
+	text-align:center;
+	transition: 0.5s
+}
+.main22 .footfuwu2 .right div a{
+	display: inline-block;
+	font-size:12px;
+	color:#ff6700;
+	margin-bottom:7px;
+	transition: 0.5s
+}
+.main22 .footfuwu2 .right div:hover{
+	background:#ff6700;
+}
+.main22 .footfuwu2 .right div a:hover{
+	color:white;
+}
+.textlist{
+	margin-top:25px;
+	float:left;
+	width:1080px;
+}
+.textlist p{
+	margin: 0;
+    line-height: 18px;
+}
+.textlist p a:hover{
+	color:#ff6700;
+}
+.text .img{
+	margin-top:30px;
+	padding-right:5px;
+	float:left;
+}
+.textlist>p>a{
+	font-size:12px;
+	color:#757575;
+}
+.sep{
+	margin:-0.15em;
+    font-family: sans-serif;
+	color:#757575;
+	font-size:12px;
+}
+.keji{
+	margin-left:800px;
+}
